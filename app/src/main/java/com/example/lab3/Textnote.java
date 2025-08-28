@@ -2,8 +2,8 @@ package com.example.lab3;
 
 public class Textnote  extends  Note{
     //Attribute
-    public String setTextContent;
-    private String textContent;
+    public String textContent;
+    //private String textContent;
 
     //getter Method
     public String getTextContent(){
@@ -19,5 +19,8 @@ public class Textnote  extends  Note{
     public String getSummary() {
         return title + ": " + textContent + " (" + createdDate + ")";
         //System.out.prinln(title + ": " + textContent + " (" + createdDate + ")");
+    }
+
+    public void setContents(String title, String content, String date) {
     }
 }
